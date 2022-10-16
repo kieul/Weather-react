@@ -1,0 +1,166 @@
+.App {
+  margin: 0 auto;
+}
+
+body {
+  background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+h2 {
+  margin: 0;
+}
+h4 {
+  color: #362e60;
+  margin-bottom: 0;
+}
+.city {
+  font-size: 30px;
+  color: #272343;
+}
+.degreelarge {
+  font-size: 70px;
+  color: #272343;
+  margin-left: 20px;
+}
+.units {
+  position: relative;
+  top: -40px;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: #272343;
+}
+
+.container {
+  display: block;
+  background: #d4e6ee;
+  margin: 0 auto;
+  padding: 20px 20px 4px 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  transition: all 200ms ease;
+}
+.container:hover {
+  background: #cae3ee;
+}
+.submit-btn {
+  position: fixed;
+  border-style: solid;
+  border-radius: 8px;
+  background-color: white;
+  border: none;
+  padding: 8px 15px;
+  transition: all 200ms ease;
+}
+.submit-btn:hover {
+  background: #f2f5f6;
+}
+.current-location-btn {
+  position: fixed;
+  border-style: solid;
+  background-color: white;
+  color: #5b6a75;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 8px;
+  transition: all 200ms ease;
+  margin-left: 100px;
+}
+.current-location-btn:hover {
+  background: #f2f5f6;
+}
+.middle {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #d4e6ee;
+  border-radius: 10px;
+  max-width: 600px;
+  transition: all 200ms ease;
+}
+.middle:hover {
+  background: #cae3ee;
+}
+#current-time {
+  font-size: 16px;
+}
+#description {
+  font-size: 16px;
+  color: #362e60;
+  margin-bottom: 2px;
+}
+.degree {
+  font-size: 16px;
+  color: #362e60;
+}
+#maxTemperature {
+  color: #362e60;
+}
+#minTemperature {
+  color: #362e60;
+}
+.card-main {
+  background: #dcecf3;
+  max-width: 800px;
+  margin: 50 auto;
+  padding: 40px 40px 40px;
+  border-radius: 10px;
+}
+.forecast-area {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.forecast-card {
+  max-width: 600;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  background: #ddddea;
+  border-radius: 20px;
+  transition: all 0.1s ease;
+}
+.forecast-card svg {
+  flex-shrink: 0;
+  height: 40px;
+  width: 40px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  text-align: center;
+}
+.maincard {
+  justify-content: space-between;
+  max-width: 600px;
+  background-color: #d4e6ee;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 200ms ease;
+}
+.maincard:hover {
+  background: #cae3ee;
+}
+.in-card {
+  font-size: 17px;
+  padding: 5px;
+  color: #272343;
+  font-family: "Raleway", sans-serif;
+}
+#search-button {
+  max-width: 100px;
+  margin: 0 auto;
+  transition: all 200ms ease;
+}
+#search-button:hover {
+  background: #e3f3fc;
+}
+
+#creator {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
